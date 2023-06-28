@@ -6,10 +6,6 @@ import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export const metadata = {
-  title: 'blog App',
-  description: 'Generated git by create next app',
-};
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
